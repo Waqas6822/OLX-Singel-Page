@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    position: fixed;
+    width: 100%;
+    height: 27%;
+    background-color: whitesmoke;
+}
+.main nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.main nav h1{
+    color: blue;
+    font-weight: 900;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.main nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.main nav ul li{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+nav ul li .bx{
+    background-color: rgb(255, 252, 252);
+    padding: 10px;
+    margin-right: 4px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+nav ul li .bx:hover{
+    background-color: rgb(228, 224, 224);
+}
+.second-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 30px;
+}
+.second-nav h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.second-nav .select{
+    padding: 7px 30px;
+    font-size: 30px;
+    font-weight: 500;
+    border-color: black;
+}
+.second-nav .find{
+    padding: 10px 80px;
+    font-size: 25px;
+    border-color: black;
+}
+.second-nav a{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+.second-nav button{
+    background-color: transparent;
+    font-size: 30px;
+    border-radius: 30px;
+    border-color: blue;
+    padding:5px 10px;
+    border-width: 5px;
+}
+.second-nav .bx-search{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding:10px;
+}
+.sec{
+    width: 100%;
+    height: 30%;
+    box-shadow: -12px 3px 19px rgb(226, 221, 221);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.sec .bx{
+    font-size: 30px;
+    cursor: pointer;
+}
+.sec h4{
+    cursor: pointer;
+}
+.sec p{
+    cursor: pointer;
+}
+.sec p:hover{
+    color: blue;
+}
+.sell{
+    margin: auto;
+}
+.home{
+    padding: 50px;
+    margin: auto;
+}
+.carts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.carts .cart{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 12px 8px 19px rgb(226, 221, 221);
+}
+.carts .cart img{
+    border-radius: 10px;
+    width: 100%;
+    height: 240px;
+    padding-bottom: 10px;
+}
+.carts .cart .rs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carts .cart .rs i{
+    padding-right: 10px;
+    font-size: 30px;
+}
+.foooter-img img{
+    width: 70%;
+    margin: 10px 15%;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(231, 225, 225);
+    height: 40%;
+    display: flex;
+    padding: 15px 80px;
+}
+.footer ul{
+    list-style: none;
+    padding: 20px;
+}
+.footer ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.footer ul li:hover{
+    color: blue;
+}
+.footer .end{
+    align-items: center;
+    padding: 15px 30px;
+}
+.footer .end .bx{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+.footer .end .images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .end .images img{
+    padding: 10px;
+    width: 120px;
+}
+.end-footer{
+    background-color: #002f34;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
